@@ -130,14 +130,18 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+            ('/index.html', 'Home', 'icon-home'),
+            ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+            ('/categories/index.html', 'Tags', 'icon-tags'),
+            ('/rss.xml', 'RSS', 'icon-rss'),
+            ('https://dickoa.github.io', 'About me', 'icon-user'),
+            ('https://twitter.com/dickoah', 'My Twitter', 'icon-twitter'),
+            ('https://github.com/dickoa', 'My Github', 'icon-github'),
+        )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "zen-jinja"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -1124,7 +1128,7 @@ UNSLUGIFY_TITLES = True
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
 # HTTP/2.0 when caching is used. Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
