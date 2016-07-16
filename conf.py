@@ -131,7 +131,8 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
             ('/index.html', 'Home', 'icon-home'),
-            ('https://dickoa.github.io', 'About me', 'icon-user'),
+            ('https://dickoa.github.io/about', 'About me', 'icon-user'),
+            ('https://dickoa.github.io/cv', 'CV', 'icon-resume'),
             ('https://twitter.com/dickoah', 'My Twitter', 'icon-twitter'),
             ('https://github.com/dickoa', 'My Github', 'icon-github'),
             ('/archive.html', 'Archives', 'icon-folder-open-alt'),
