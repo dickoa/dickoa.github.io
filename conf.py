@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Ahmadou DICKO"  # (translatable)
-BLOG_TITLE = "y"  # (translatable)
+BLOG_TITLE = "Data science for epidemiology and agriculture"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://dickoa.github.io/"
@@ -26,7 +26,7 @@ SITE_URL = "https://dickoa.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dickoa.github.io/"
 BLOG_EMAIL = "dicko.ahmadou@gmail.com"
-BLOG_DESCRIPTION = "My personal blog"  # (translatable)
+BLOG_DESCRIPTION = "This is a blog about the use of data science for epidemiology and agriculture"  # (translatable)
 
 # Nikola is multilingual!
 #
