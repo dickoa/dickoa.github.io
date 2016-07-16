@@ -1,0 +1,4 @@
+Sitemap: https://dickoa.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: dickoa.github.io
