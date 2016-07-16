@@ -1,0 +1,13 @@
+#+BEGIN_COMMENT
+.. title: My first post
+.. slug: my-first-post
+.. date: 2016-07-16 15:22:20 UTC+02:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+This is my first post using Nikola and Org-mode
