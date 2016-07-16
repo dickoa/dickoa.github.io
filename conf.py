@@ -132,9 +132,9 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
             ('/index.html', 'Home', 'icon-home'),
             ('https://dickoa.github.io/about', 'About me', 'icon-user'),
-            ('https://dickoa.github.io/cv', 'CV', 'icon-resume'),
-            ('https://twitter.com/dickoah', 'My Twitter', 'icon-twitter'),
-            ('https://github.com/dickoa', 'My Github', 'icon-github'),
+            ('https://dickoa.github.io/cv', 'CV', 'icon-file-text'),
+            ('https://twitter.com/dickoah', 'Twitter', 'icon-twitter'),
+        ('https://github.com/dickoa', 'Github', 'icon-github-alt'),
             ('/archive.html', 'Archives', 'icon-folder-open-alt'),
             ('/categories/index.html', 'Tags', 'icon-tags'),
             ('/rss.xml', 'RSS', 'icon-rss'),
