@@ -1,0 +1,17 @@
+#+TITLE: New post
+#+DATE: 2016-07-16
+
+This is my first post using Nikola and Org-mode
+
+#+begin_src R :exports both :results output :session *R
+  set.seed(1)
+  x <- rnorm(mean = 15, sd = 5, 1000)
+  mean(x)
+#+end_src
+
+Test images
+
+#+begin_src R :exports both :results value graphics :file ../files/img/hist.png :session *R 
+  hist(x, col = "steelblue", lwd = 0.25)
+#+end_src
+

@@ -1176,7 +1176,7 @@ GLOBAL_CONTEXT = {}
 GLOBAL_CONTEXT_FILLER = []
 
 # ADD org-mode compiler
-# COMPILERS["orgmode"] = ('.org',)
+COMPILERS["orgmode"] = ('.org',)
 
 # Add org files to your POSTS, PAGES
 POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
