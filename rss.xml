@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Data science for epidemiology and agriculture</title><link>https://dickoa.github.io/</link><description>This is a blog about the use of data science for epidemiology and agriculture</description><atom:link href="https://dickoa.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 16 Jul 2016 14:11:57 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My first post</title><link>https://dickoa.github.io/posts/my-first-post/</link><dc:creator>Ahmadou DICKO</dc:creator><description>&lt;p&gt;
-This is my first post using Nikola and Org-mode
-&lt;/p&gt;
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kp"&gt;set.seed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-x &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; rnorm&lt;span class="p"&gt;(&lt;/span&gt;mean &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; sd &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="kp"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;x&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;
-Test images
-&lt;/p&gt;
-
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hist&lt;span class="p"&gt;(&lt;/span&gt;x&lt;span class="p"&gt;,&lt;/span&gt; col &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"steelblue"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; lwd &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0.25&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><guid>https://dickoa.github.io/posts/my-first-post/</guid><pubDate>Sat, 16 Jul 2016 13:22:20 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data science for epidemiology and agriculture</title><link>https://dickoa.github.io/</link><description>This is a blog about the use of data science for epidemiology and agriculture</description><atom:link type="application/rss+xml" href="https://dickoa.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 16 Jul 2016 14:22:21 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My first post</title><link>https://dickoa.github.io/posts/my-first-post/</link><dc:creator>Ahmadou DICKO</dc:creator><description>&lt;div&gt;&lt;!-- title: New post --&gt;
+&lt;!-- slug: New-post --&gt;
+&lt;!-- date: 2016-07-16 --&gt;
+&lt;!-- tags: --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: --&gt;
+&lt;!-- type: text --&gt;
+&lt;!-- author: Ahmadou H. Dicko --&gt;
+&lt;p&gt;This is my first post using Nikola and Org-mode&lt;/p&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="https://dickoa.github.io/posts/my-first-post/#rest_code_cdb2579896614c7db7fec8854c2aaa66-0"&gt;0&lt;/a&gt;
+&lt;a href="https://dickoa.github.io/posts/my-first-post/#rest_code_cdb2579896614c7db7fec8854c2aaa66-1"&gt;1&lt;/a&gt;
+&lt;a href="https://dickoa.github.io/posts/my-first-post/#rest_code_cdb2579896614c7db7fec8854c2aaa66-2"&gt;2&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code R"&gt;&lt;a name="rest_code_cdb2579896614c7db7fec8854c2aaa66-0"&gt;&lt;/a&gt;&lt;span class="kp"&gt;set.seed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_cdb2579896614c7db7fec8854c2aaa66-1"&gt;&lt;/a&gt;x &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; rnorm&lt;span class="p"&gt;(&lt;/span&gt;mean &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; sd &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_cdb2579896614c7db7fec8854c2aaa66-2"&gt;&lt;/a&gt;&lt;span class="kp"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;x&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;pre class="literal-block"&gt;
+R&amp;gt; [1] 14.94176
+&lt;/pre&gt;
+&lt;p&gt;Test images&lt;/p&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="https://dickoa.github.io/posts/my-first-post/#rest_code_21c3b8a089ee4e6091d6165755f3a6d3-0"&gt;0&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code R"&gt;&lt;a name="rest_code_21c3b8a089ee4e6091d6165755f3a6d3-0"&gt;&lt;/a&gt;hist&lt;span class="p"&gt;(&lt;/span&gt;x&lt;span class="p"&gt;,&lt;/span&gt; col &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"steelblue"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; lwd &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0.25&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;img alt="../files/img/hist.png" src="https://dickoa.github.io/posts/files/img/hist.png"&gt;&lt;/div&gt;</description><guid>https://dickoa.github.io/posts/my-first-post/</guid><pubDate>Sat, 16 Jul 2016 13:22:20 GMT</pubDate></item></channel></rss>
