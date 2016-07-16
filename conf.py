@@ -268,7 +268,7 @@ COMPILERS = {
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
-# ONE_FILE_POSTS = True
+ONE_FILE_POSTS = False
 
 # If this is set to True, the DEFAULT_LANG version will be displayed for
 # untranslated posts.
@@ -1176,7 +1176,7 @@ GLOBAL_CONTEXT = {}
 GLOBAL_CONTEXT_FILLER = []
 
 # ADD org-mode compiler
-COMPILERS["orgmode"] = ('.org',)
+# COMPILERS["orgmode"] = ('.org',)
 
 # Add org files to your POSTS, PAGES
 POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
