@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://dickoa.github.io/</loc>
-  <lastmod>2016-07-16T13:58:00Z</lastmod>
+  <lastmod>2016-07-17T09:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dickoa.github.io/2016/</loc>
@@ -32,5 +32,9 @@
  <url>
   <loc>https://dickoa.github.io/posts/my-first-post/</loc>
   <lastmod>2016-07-16T14:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dickoa.github.io/stories/cv/</loc>
+  <lastmod>2016-07-17T09:58:00Z</lastmod>
  </url>
 </urlset>
